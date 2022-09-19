@@ -1,0 +1,3 @@
+# Fichier pour les modules Python requis pour générer le site Web
+mkdocs
+mkdocs-with-pdf

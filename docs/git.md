@@ -2,6 +2,14 @@
 
 # Installation de GIT sur Mac
 
+## Installation de XCode Command Line Tools
+
+Avant l'installation de Homebrew, il faut installer les outils de ligne de commande XCode. Pour l'installer, ouvrir le terminal et exécuter cette commande :  
+
+```
+xcode-select --install  
+```
+
 ## Installation de Homebrew  
 
 Homebrew est un gestionnaire de paquets (Package Manager) pour le Mac.  
