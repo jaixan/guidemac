@@ -20,10 +20,15 @@ nav:
   - 'Page principale' : 'index.md'
   - 'Installation' :
     - 'GIT' : 'git.md'  
+    - 'Homebrew' : 'homebrew.md'  
+    - 'Kali Linux' : 'kali.md'  
+    - 'Systèmes d''exploitation préinstallés' : 'os.md'  
     - 'UTM' : 'utm.md'  
     - 'Windows XP' : 'xp.md'  
   - 'Procédures' :  
     - 'Créer ISO' : 'creer-iso.md'  
+    - 'Convertir vmdk vers qcow2' : 'convertir-vmdk-vers-qcow2.md'  
+
 
 
 markdown_extensions:
