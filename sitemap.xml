@@ -31,12 +31,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jaixan.github.io/guidemac/java/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jaixan.github.io/guidemac/kali/</loc>
          <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jaixan.github.io/guidemac/os/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jaixan.github.io/guidemac/umlet/</loc>
          <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
