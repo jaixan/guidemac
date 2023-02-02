@@ -45,6 +45,43 @@
 <li>
     <a href="./" class="dropdown-item active">GIT</a>
 </li>
+                                    
+<li>
+    <a href="../homebrew/" class="dropdown-item">Homebrew</a>
+</li>
+                                    
+<li>
+    <a href="../kali/" class="dropdown-item">Kali Linux</a>
+</li>
+                                    
+<li>
+    <a href="../os/" class="dropdown-item">Systèmes d'exploitation préinstallés</a>
+</li>
+                                    
+<li>
+    <a href="../utm/" class="dropdown-item">UTM</a>
+</li>
+                                    
+<li>
+    <a href="../xp/" class="dropdown-item">Windows XP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Procédures <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../creer-iso/" class="dropdown-item">Créer ISO</a>
+</li>
+                                    
+<li>
+    <a href="../convertir-vmdk-vers-qcow2/" class="dropdown-item">Convertir vmdk vers qcow2</a>
+</li>
+                                    
+<li>
+    <a href="../convertir-qcow2-vers-vmdk/" class="dropdown-item">Convertir qcow2 vers vmdk</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -61,7 +98,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../homebrew/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -90,15 +127,7 @@
             
             <li class="nav-item" data-level="1"><a href="#installation-de-git-sur-mac" class="nav-link">Installation de GIT sur Mac</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#installation-de-xcode-command-line-tools" class="nav-link">Installation de XCode Command Line Tools</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
             <li class="nav-item" data-level="2"><a href="#installation-de-homebrew" class="nav-link">Installation de Homebrew</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#ajouter-homebrew-au-path" class="nav-link">Ajouter Homebrew au PATH</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -120,28 +149,8 @@
 
 <h1 id="git">GIT</h1>
 <h1 id="installation-de-git-sur-mac">Installation de GIT sur Mac</h1>
-<h2 id="installation-de-xcode-command-line-tools">Installation de XCode Command Line Tools</h2>
-<p>Avant l'installation de Homebrew, il faut installer les outils de ligne de commande XCode. Pour l'installer, ouvrir le terminal et exécuter cette commande :  </p>
-<pre><code>xcode-select --install  
-</code></pre>
 <h2 id="installation-de-homebrew">Installation de Homebrew</h2>
-<p>Homebrew est un gestionnaire de paquets (Package Manager) pour le Mac.  </p>
-<p>Pour l'installer, ouvrir le terminal et exécuter cette commande :  </p>
-<pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
-</code></pre>
-<p>Suivre les indications dans le terminal.  </p>
-<h2 id="ajouter-homebrew-au-path">Ajouter Homebrew au PATH</h2>
-<p>Faire les commandes suivantes pour ajouter Homebrew au PATH de zsh :  </p>
-<pre><code>cd /opt/homebrew/bin/  
-
-PATH=$PATH:/opt/homebrew/bin  
-
-cd  
-
-touch .zshrc  
-
-export PATH=&quot;/opt/homebrew/bin:${PATH}&quot; &gt;&gt; .zshrc  
-</code></pre>
+<p>Pour installer GIT, nous devons installer <a href="../homebrew/">Homebrew.</a>  </p>
 <h2 id="installation-de-git">Installation de GIT</h2>
 <p>Installer GIT avec Homebrew, faire la commande suivante dans le terminal :  </p>
 <pre><code>brew install git  

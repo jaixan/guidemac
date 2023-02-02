@@ -2,12 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://m1.professeur.tech/</loc>
-         <lastmod>2022-09-15</lastmod>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/convertir-qcow2-vers-vmdk/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/convertir-vmdk-vers-qcow2/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/creer-iso/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://m1.professeur.tech/git/</loc>
-         <lastmod>2022-09-15</lastmod>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/homebrew/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/kali/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/os/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/utm/</loc>
+         <lastmod>2023-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://m1.professeur.tech/xp/</loc>
+         <lastmod>2023-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
